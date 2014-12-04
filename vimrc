@@ -13,19 +13,28 @@ syntax on
 " Vim UI
 "--------
 " color scheme
-set background=dark
-color solarized
+"colorscheme ron
+"set background=dark
+"color solarized
+
+"syntax on           " 语法高亮  
+autocmd InsertLeave * se nocul  " 用浅色高亮当前行  
+autocmd InsertEnter * se cul    " 用浅色高亮当前行  
+
+
 
 " highlight current line
-au WinLeave * set nocursorline nocursorcolumn
-au WinEnter * set cursorline cursorcolumn
-set cursorline cursorcolumn
+"au WinLeave * set nocursorline nocursorcolumn
+"au WinEnter * set cursorline cursorcolumn
+"set cursorline cursorcolumn
 
 " search
 set incsearch
 "set highlight 	" conflict with highlight current line
 set ignorecase
 set smartcase
+
+inoremap jj <Esc>
 
 " editor settings
 set history=1000
