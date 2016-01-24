@@ -102,4 +102,9 @@ Bundle 'Lokaltog/vim-distinguished'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'fisadev/fisa-vim-colorscheme'
 
+
+"--------------
+" accelerated-smooth-scroll
+"--------------
+Bundle 'yonchu/accelerated-smooth-scroll'
 filetype plugin indent on     " required!
