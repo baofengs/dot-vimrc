@@ -49,6 +49,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
+"Plugin 'vim-airline/vim-airline'
 
 "-------------
 " Other Utils
@@ -101,5 +102,13 @@ Bundle 'tpope/vim-vividchalk'
 Bundle 'Lokaltog/vim-distinguished'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'fisadev/fisa-vim-colorscheme'
+
+"--------------
+" accelerated-smooth-scroll
+"--------------
+Bundle 'yonchu/accelerated-smooth-scroll'
+
+Bundle 'gregsexton/gitv'
+
 
 filetype plugin indent on     " required!

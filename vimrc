@@ -6,30 +6,33 @@ set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 " enable filetype dectection and ft specific plugin/indent
 filetype plugin indent on
 
-" enable syntax hightlight and completion
-syntax on
 
-"--------
+inoremap jj <Esc>
+
+"-------
 " Vim UI
 "--------
 " color scheme
+" enable syntax hightlight and completion
+syntax enable
 set background=dark
 color solarized
 
 " highlight current line
-au WinLeave * set nocursorline nocursorcolumn
-au WinEnter * set cursorline cursorcolumn
-set cursorline cursorcolumn
-
+"au WinLeave * set nocursorline "nocursorcolumn
+"au WinEnter * set cursorline cursorcolumn
+set cursorline "cursorcolumn
+"
 " search
 set incsearch
-"set highlight 	" conflict with highlight current line
+" set highlight 	" conflict with highlight current line
 set ignorecase
 set smartcase
 
 " editor settings
 set history=1000
-set nocompatible
+"set nocompatibl
+
 set nofoldenable                                                  " disable folding"
 set confirm                                                       " prompt when existing from an unsaved file
 set backspace=indent,eol,start                                    " More powerful backspacing
@@ -110,7 +113,7 @@ hi Tb_VisibleChanged guifg=green ctermbg=252 ctermfg=white
 let g:EasyMotion_leader_key = '<Leader>'
 
 " Tagbar
-let g:tagbar_left=1
+let g:tagbar_right=1
 let g:tagbar_width=30
 let g:tagbar_autofocus = 1
 let g:tagbar_sort = 0
@@ -147,7 +150,7 @@ let NERDTreeChDirMode=2
 let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
 " let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 let NERDTreeShowBookmarks=1
-let NERDTreeWinPos = "right"
+let NERDTreeWinPos = "left"
 
 " nerdcommenter
 let NERDSpaceDelims=1
@@ -205,6 +208,11 @@ nmap <F4> :IndentGuidesToggle<cr>
 nmap  <D-/> :
 nnoremap <leader>a :Ack
 nnoremap <leader>v V`]
+
+" ----------------
+nmap <leader>] :Tbbn<CR>
+nmap <leader>[ :Tbbp<CR>
+nmap <leader>d :Tbbd<CR>
 
 "------------------
 " Useful Functions
