@@ -107,8 +107,6 @@ Bundle 'fisadev/fisa-vim-colorscheme'
 " accelerated-smooth-scroll
 "--------------
 Bundle 'yonchu/accelerated-smooth-scroll'
-
 Bundle 'gregsexton/gitv'
-
 
 filetype plugin indent on     " required!

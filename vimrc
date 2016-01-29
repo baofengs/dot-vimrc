@@ -18,16 +18,26 @@ syntax enable
 set background=dark
 color solarized
 
+syntax enable           " 语法高亮  
+autocmd InsertLeave * se nocul  " 用浅色高亮当前行  
+autocmd InsertEnter * se cul    " 用浅色高亮当前行  
+
+"set fdm=marker
+set foldmethod=marker
+
+
 " highlight current line
-"au WinLeave * set nocursorline "nocursorcolumn
+"au WinLeave * set nocursorline nocursorcolumn
 "au WinEnter * set cursorline cursorcolumn
 set cursorline "cursorcolumn
-"
+
 " search
 set incsearch
 " set highlight 	" conflict with highlight current line
 set ignorecase
 set smartcase
+
+inoremap jj <Esc>
 
 " editor settings
 set history=1000
@@ -48,7 +58,7 @@ set title                                                         " show file in
 set laststatus=2                                                  " use 2 lines for the status bar
 set matchtime=2                                                   " show matching bracket for 0.2 seconds
 set matchpairs+=<:>                                               " specially for html
-" set relativenumber
+"set relativenumber
 
 " Default Indentation
 set autoindent
@@ -274,3 +284,4 @@ if has("gui_running")
     map <D-9> 9gt
     map <D-0> :tablast<CR>
 endif
+set runtimepath^=~/.vim/bundle/ag
