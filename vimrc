@@ -18,9 +18,9 @@ syntax enable
 set background=dark
 color solarized
 
-syntax enable           " 语法高亮  
-autocmd InsertLeave * se nocul  " 用浅色高亮当前行  
-autocmd InsertEnter * se cul    " 用浅色高亮当前行  
+syntax enable           " 语法高亮
+autocmd InsertLeave * se nocul  " 用浅色高亮当前行
+autocmd InsertEnter * se cul    " 用浅色高亮当前行
 
 "set fdm=marker
 set foldmethod=marker
@@ -37,7 +37,11 @@ set incsearch
 set ignorecase
 set smartcase
 
+" ---------------
+" My settings
+" ---------------
 inoremap jj <Esc>
+nmap zz :wq<CR>
 
 " editor settings
 set history=1000
@@ -154,6 +158,8 @@ if executable('coffeetags')
 endif
 
 " Nerd Tree
+" open vim with NERDTree
+" autocmd VimEnter * NERDTree
 let NERDChristmasTree=0
 let NERDTreeWinSize=30
 let NERDTreeChDirMode=2
@@ -171,7 +177,7 @@ let NERDCompactSexyComs=1
 let g:user_emmet_expandabbr_key='<C-j>'
 
 " powerline
-"let g:Powerline_symbols = 'fancy'
+" let g:Powerline_symbols = 'fancy'
 
 " NeoComplCache
 let g:neocomplcache_enable_at_startup=1
