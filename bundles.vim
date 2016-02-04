@@ -112,9 +112,10 @@ Bundle 'gregsexton/gitv'
 Bundle 'ervandew/ag'
 
 " --------------
-" php-manual for vim
+" plugins for php
 " --------------
 Bundle 'alvan/vim-php-manual'
+Bundle 'alvan/vim-php-syntax'
 
 " --------------
 " vim-airline
