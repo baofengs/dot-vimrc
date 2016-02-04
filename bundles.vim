@@ -116,5 +116,10 @@ Bundle 'ervandew/ag'
 " --------------
 Bundle 'alvan/vim-php-manual'
 
+" --------------
+" vim-airline
+" --------------
+" Bundle 'vim-airline/vim-airline'
+" Bundle 'vim-airline/vim-airline-themes'
 
 filetype plugin indent on     " required!
