@@ -109,4 +109,12 @@ Bundle 'fisadev/fisa-vim-colorscheme'
 Bundle 'yonchu/accelerated-smooth-scroll'
 Bundle 'gregsexton/gitv'
 
+Bundle 'ervandew/ag'
+
+" --------------
+" php-manual for vim
+" --------------
+Bundle 'alvan/vim-php-manual'
+
+
 filetype plugin indent on     " required!
