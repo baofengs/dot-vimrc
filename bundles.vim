@@ -123,4 +123,8 @@ Bundle 'alvan/vim-php-syntax'
 " Bundle 'vim-airline/vim-airline'
 " Bundle 'vim-airline/vim-airline-themes'
 
+Bundle 'mxw/vim-jsx'
+
+Bundle 'terryma/vim-multiple-cursors'
+
 filetype plugin indent on     " required!

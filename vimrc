@@ -6,8 +6,10 @@ set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 " enable filetype dectection and ft specific plugin/indent
 filetype plugin indent on
 
-
 inoremap jj <Esc>
+
+" jsx
+let g:jsx_ext_required = 0
 
 "-------
 " Vim UI
@@ -25,11 +27,10 @@ autocmd InsertEnter * se cul    " 用浅色高亮当前行
 "set fdm=marker
 set foldmethod=marker
 
-
 " highlight current line
 "au WinLeave * set nocursorline nocursorcolumn
 "au WinEnter * set cursorline cursorcolumn
-set cursorline "cursorcolumn
+set cursorline cursorcolumn
 
 " search
 set incsearch
@@ -42,6 +43,9 @@ set smartcase
 " ---------------
 inoremap jj <Esc>
 nmap zz :wq<CR>
+set hlsearch
+nmap <leader>= :set hlsearch<CR>
+nmap <leader>- :set nohlsearch<CR>
 
 " editor settings
 set history=1000
