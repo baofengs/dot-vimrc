@@ -50,6 +50,7 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
 "Plugin 'vim-airline/vim-airline'
+Bundle 'hushicai/fecs.vim.git'
 
 "-------------
 " Other Utils
