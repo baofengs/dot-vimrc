@@ -52,6 +52,19 @@ Bundle 'bronson/vim-trailing-whitespace'
 "Plugin 'vim-airline/vim-airline'
 Bundle 'hushicai/fecs.vim.git'
 
+" for blade
+Bundle 'jwalton512/vim-blade'
+
+" for VUE
+Bundle 'posva/vim-vue'
+
+Bundle 'https://github.com/gorodinskiy/vim-coloresque.git'
+
+" https://github.com/jasonlong/vim-textobj-css
+Bundle 'kana/vim-textobj-user'
+Bundle 'jasonlong/vim-textobj-css'
+
+
 "-------------
 " Other Utils
 "-------------
