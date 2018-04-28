@@ -49,7 +49,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
-"Plugin 'vim-airline/vim-airline'
+" Bundle 'vim-airline/vim-airline'
 Bundle 'hushicai/fecs.vim.git'
 
 " for blade
@@ -136,6 +136,9 @@ Bundle 'alvan/vim-php-syntax'
 " --------------
 " Bundle 'vim-airline/vim-airline'
 " Bundle 'vim-airline/vim-airline-themes'
+"
+" Plugin 'tmux-plugins/vim-tmux-focus-events'
+" Plugin 'roxma/vim-tmux-clipboard'
 
 Bundle 'mxw/vim-jsx'
 

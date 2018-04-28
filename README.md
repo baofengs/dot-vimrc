@@ -1,3 +1,5 @@
+# This repo is forked from [humiaozuzu/dot-vimrc](https://github.com/humiaozuzu/dot-vimrc)
+
 Maple's Vim config
 ==================
 
