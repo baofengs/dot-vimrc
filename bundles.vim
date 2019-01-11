@@ -145,3 +145,8 @@ Bundle 'mxw/vim-jsx'
 Bundle 'terryma/vim-multiple-cursors'
 
 filetype plugin indent on     " required!
+
+Bundle 'mhartington/oceanic-next'
+
+Bundle 'jdkanani/vim-material-theme'
+Bundle 'ekalinin/Dockerfile.vim'

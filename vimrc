@@ -14,9 +14,9 @@ let g:jsx_ext_required = 0
 "--------
 " color scheme
 " enable syntax hightlight and completion
-syntax enable
+"syntax enable
 set background=dark
-color solarized
+color OceanicNext
 
 syntax enable           " 语法高亮
 autocmd InsertLeave * se nocul  " 用浅色高亮当前行
